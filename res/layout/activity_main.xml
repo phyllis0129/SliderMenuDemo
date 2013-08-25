@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/imgbtn_top_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/nav_left" />
+
+    <TextView
+        android:id="@+id/tv_top_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="景点查询"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_top_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/ic_action_github" />
+
+</FrameLayout>
